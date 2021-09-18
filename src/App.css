@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPetFIzJxV3psIOWXAMIPPAceOzWOOW2YhATxVSJXMdXv6MbcD7mMZEAioUx5B_jBQggk&usqp=CAU");
+  /*background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8PEhAPEA8PDw0PDxAPDw8PDw8PFREWFhURFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGysfHR0tLS0tKy0rLS0tLSsrLS0tLS0tLS0tLS0tLS0tLTctLS0tLTctKy0tNystLSstKy0rK//AABEIAKABOwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAcF/8QAJxAAAgIBAwQDAQEAAwAAAAAAAAECAxESMVETIUFhBHGRgbHB0fD/xAAbAQEBAQEBAQEBAAAAAAAAAAADAgEEAAYHBf/EAB8RAAMBAAIDAQEBAAAAAAAAAAABAhEDEhMhMVFBMv/aAAwDAQACEQMRAD8A8twZIpgbBWn0K49FwOoGihjNHmEZDNCjIwafwXSFIIUYUo1gwNgKgNpZh0Tx5/BTGY0UeKSNFBYTYMFwyQ6QEhjC5QrRsDDRgz2ldQJBH6Y0Ks+SdFUkcBii/SwPAzTepGNfJSEUUcA10yfj+kuisE6WSsPjduSihjwPBkOmeJqC4GKNIVw/pOmjVrsCVfBaul9vH2XhSl7+yHSRhw1VvOz/AAt05cM7obB0Ih8h7ThXxm3ntj7Oiv4/s6I/Hf19jKt8P+EvkM0g6HySnQ+DvVUuB4fGk+CfJhPbD5tNDe6eF6fc6dD4f4z6DhjtsKQ+XTO+nFofD/GKvjvh/h9GKyVJfK0Y7w8uQcGSCf3T+HMsKMZBwYNK1AwaKGwGJ4Rca0yiMYyMGUpDxMEBgqCECGSMLSAkOkAJgiQNI2gMRzGylKFSGhujNBhuYUPNeTVDGrXd/wAJNHMq8/8AZSFfP4WUfRDrDRYVJey1W/8AGGFTwNCt52CdaeMw1wTe3sdwfBX49L3xv/hDeInQdNeEvwMV3Lqr2VqoW4bv0Y2RaF6fGTs6ePCAR3M05oUyLwrS++S0NhunnYh2S6JRWS2nCHjU0aUXww3WsjsTSOiEcIFcMfYxNPSW9M0SlTwVLVwx9kO+pLrDnjQ1uN00dBtPojyP+k92eSGNgJ9ScaTCkEyQxg8z6FwNGJsFEjwkyDBkhsGSMFUmwFRCEkRSgYGwAaJ4pIGAqAyiPFE6VgFWU0I2CqrZLZRPSuCtMFvgyqLqnC7EOjRdC4X4UprW+EJhrdF612RFP0YEMVl4GVb4/wCCtdLS8ZDbR7TIaCNofBaiptZw/wA3DbSRjYYQ8+CodD4D02C2RopeKwCql5zwV6b9EVSJbQgVDI8aW+C0a8EO0iHSJKJWKwVhSsZN0wnaYbtMQeKGjWUjVkOrSIdIkFVZ8HR0cbAaD8v4R3/BIUIfQh4odVhVyfrIdEdI+ktGKQcBPlJdnixkHA0Yn3AqlgQUh8BMFUgSGAkUwY2NMiBSGDHczS1JtIRwwXdE6JgqiPGPoqZE6bgugaMfCRSMcl6YYZDo0jGGPsY6ZIVUpteCO36eFqj5Kop0Q9JeyHR4SEcnakTVeyRdVsKqJYmDRZRVexlTkjsidNXDL9eTqhwGNKSwHpsGqTIdaDBkvBZVclYQXAbtIh2hIrCwYppHroechu0vbD7JGrjhf6Brvgt036DGlt+AfIvofdABgsq0PGIL5F/A+xOFfJRFhdP/AJAPk36H236Ih4xz9BjUVjAO+RL4S6QuAaS2gIHl/COxFQY3RZetDYDfOyHbPCkhwqJsH6Pp/VUtGQQYGijCkgoYyRVRRLY8okPDcbBalGOisJqD4KV1PPjYcpT5IbKF6XsaFOXuOUrXYN0zwiWOxWtdg6MlY0/RDZ4mPSu43RfKL0/HxnLIprDGxB66m3sXjBLwWoW7/gVWS2SjXjwUiWaBHsw+xGky1MPJSK7lkkFV/wAIqiQ8F3C6y9Hx3uwqtJB1SSEZSutv0XjWkVhwct83r0BXJ+EYwSHgO6zQreQXaaDdJgaNDctGrkolgF8q+EOyejPgaukoUic98rS9BumS6YcFcAC8jZHYRDpFYxM4oN8mmOhBcF1BDqpEd0iO6RJIxV1oHT9kdjOx4UghSCkfqB/fSFwPCIRooxstSYeCyFV8nRXt+htiJE41cnRGtYQhZENs0TpIpXSykIclEG6MISg+DorpZWuHk6A6s9pBQ9BUXwWKUwy8+F/obozRYUPdlo1DseOwTpkNnM0dFawkOqtW5ZQRFWiHRAPTb8HRFFoQ/Qq5MId4SroeO+B1V7OgDQD5Gwe7ZlDBarYWtZR0QgsHLy369g3RNoyeGW6aD0c8g+Vf0jshUsloLAYVY9jo5uTlT9IKq0UGCwyjkDyYR2IJFC8VgLQdcukOyKix4UvcdIqiHbIdsi4MCRfI0SOxPYSMQlMI2knSdJMOkooDaD2mdjwPBWIkEUP1Fs+rSMVrXYkVq8ks0ZxKxr7D0UN98dvBdVemwqo05umzrhS0YtS89vKIqjCeh8FqqXvj/C0K8b7lYMGrMbI9NlIVso0NXFvsQ69Etiwoz5OhVYXYKjgpCLYNWQ6ISRauH4VVS89y2A65CKskkPGtsoojxBqwnYqrwPXFvZFIxL1nPfK0gaslGh+exSNKXv7HMc75KYTpsaMfBVQQK4jnHd+8QLYNK4OiMFjYnXHyXRzclsOmI4IDgihsB9mRoK6xtI8VhBJdE6JGI6gOkHBDol0CMUNpQyiFRMD0noGjWyiHNSMdMmoBUUM0NFFKSHQFFG0DGwJ1RGs8ChX2G0BrKRhz2/0/SWz7Ukqzo+PTu3+BSwdFa7L9DqvRpWh7lkznq3/hcGvpgxX463f8I5Ouit6V77kW8RjNgKXctGspBbAuiNFhVz+FooZoXAO6RujpZLxXgSEcFEDTCpgaGgFRb2LU0d/+A6tJew6pJGjHJWutIbTgxyVbfwB1o+lD11gii0Tl5KaWBUwaEGMFwEatAVTwhsZxAoscpCOAHeBusAojxiwopDYF0E2Kqx0jBRGkaMwKIR41mIlvBVEpFGMaQ3o2kVocKRXXSdFih1EaIcDTxkOgJGcQpDqIs8eoh0TjAcbAcCriRLo8Erjj7GBEeMcn3LZ92BI6dDJpHRDuHTPCxg8o6o08v8FjEvVF+QqolsNda4O0jWu6LHPT0Ns2A1x7gR0Vxwg6eE08MoFK4eQKOS6gwaoGqMhoR7oXSytK8gU8QTfooPV5FGq3Zy1/lgv4UA4DDxgA6wPcBXDsUjEKiWjA5eTkDqiagVhBBMgKpsNvRkiokEPgJhsGCkImihkiWyGwaRowHUQpGB9gRiURlHBhEsIb0LQHEZDRiWp7Et4LCtlVEKCdM8SSCdNgQwo6Q0LfRDDBBaCjHWpxYG2BBNFD4LiG0Zp4FCHfuW0kytfc+lZ+hGUTr+PFInGOC0F2Cp+jGUKxQlUWzqjHAFMNs1MOToUERK1PPYGg6GLRjkVV8nRGPZAVQVUKlgqJgetZ7AU/6Ewxjk6ILAIxwFHNVaDT0ZxGqr8mSKxQF00sDbMkMkDBWEDlusQbYYrAyYMDxic7YbZkhlAcMQ9DbDpKRQuCkYkMNsxg6BowPJNkNoKQ6QyQMDKMC7aFGwZFIxFmexDeCxgOkNGIWjqnhxaG6MkbAUh4wOieN16SDdYKojaRtJsHTPCpIdabSbAYjKJ0TO/EQ2ZBDpNpOjxsnT//2Q==");*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 625px;
+  position: relative;
+
+    
+}
+.Nav{
+
+  font-family:'Ubuntu', sans-serif;
+  color:antiquewhite;
+  padding-top:20px;
+  height:40px;
+  padding:20px;
+  background-color: #f0d6b4;
+}
+h1{
+  float:left;
+  color:#b6083c;
+  margin-left: 20px;
+}
+h1:hover{
+  color:rgb(78, 13, 24);
+  translate:inherit;
+  font-size:2rem;
+}
+.btn{
+  float:right;
+  padding:10px;
+  background-color:rgb(231, 134, 42);
+  border-radius:5px;
+  cursor:pointer;
+  margin-right: 30px;
+  border: .1rem solid rgba(14, 13, 13, 0.2);
+}
+.btn:hover{
+  background-color:#ad4432;
+}
+
+.row{
+  margin:32px;
+
+}
+.column{
+  float:left;
+  width:25%;
+  padding:10 10px;
+  margin: 20px;
+}
+.card{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffcb9a;
+  text-align:center;
+  padding:30px;
+  
+}
+
+.card-t {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .card:hover{
+    box-shadow: 0px 0px 5px 5px rgb(255, 253, 250);
+    cursor: pointer;
+    background-color: #d9b08c;
+  }
+  .card:hover .card-text{
+color: rgb(185, 6, 6);
+  }
+
+  .card-text {
+    font-size:1rem;
+    color: rgb(27, 22, 22);
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .card-img-top {
+    background-color: #eb6834;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid white;
+  }
+
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
